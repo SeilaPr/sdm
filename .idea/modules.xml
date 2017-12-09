@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GigiaRadio.iml" filepath="$PROJECT_DIR$/GigiaRadio.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdm.iml" filepath="$PROJECT_DIR$/sdm.iml" />
     </modules>
   </component>
 </project>
