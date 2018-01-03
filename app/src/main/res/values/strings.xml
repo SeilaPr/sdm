@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">GigiaRadio</string>
+    <string name="play">► Play!</string>
+    <string name="stop">|| Stop</string>
+    <string name="escucha">Escúchanos en directo!</string>
+    <string name="podcast">Escucha aquí nuestros podcast</string>
+    <string name="carmin1">Carmín Parte 1</string>
+    <string name="carmin2">Carmín Parte 2</string>
+    <string name="perlora">Fiestas de Perlora</string>
+    <string name="carmin3">Carmín Parte 3</string>
+    <string name="carmin4">Carmín Parte 4</string>
+    <string name="pulsaTitulo">Pulsa en el título del podcast que quieras escuchar</string>
+    <string name="beerpong">Torneo de Beerpong</string>
+    <string name="proxProgramas">Próximos programas</string>
 </resources>
