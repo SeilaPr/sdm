@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -34,6 +36,44 @@ public class MainActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         play = (Button) findViewById(R.id.btnPlay);
         twitter();
+    }
+
+    public boolean onCreateOptionsMenu(final Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.acerca_de) {
+            openAcercaDe();
+            return true;
+        }
+        else if (id == R.id.contacto) {
+            openContacto();
+            return true;
+        }
+        else if (id == R.id.equio) {
+            openEquipo();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void openEquipo() {
+        final Intent mIntent = new Intent(MainActivity.this, EquipoActivity.class);
+        startActivity(mIntent);
+    }
+
+    private void openContacto() {
+        final Intent mIntent = new Intent(MainActivity.this, ContactoActivity.class);
+        startActivity(mIntent);
+    }
+
+    private void openAcercaDe() {
+        final Intent mIntent = new Intent(MainActivity.this, AcercaDeActivity.class);
+        startActivity(mIntent);
     }
 
     private void twitter() {

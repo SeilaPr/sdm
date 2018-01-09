@@ -36,7 +36,7 @@ public class PlayPodcastActivity extends AppCompatActivity {
         String desc = bundle.getString("descripcion");
         int uri = bundle.getInt("uri");
 
-        Uri uriAudio = Uri.parse("android.resource://es.uniovi.robertoperez.gigiaradio/" + uri);
+        Uri uriAudio = Uri.parse("android.resource://com.example.seila.gigiaradio/" + uri);
 
         txtTitulo = (TextView) findViewById(R.id.txtTitulo);
         txtFecha = (TextView) findViewById(R.id.txtFecha);

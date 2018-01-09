@@ -12,4 +12,27 @@
     <string name="pulsaTitulo">Pulsa en el título del podcast que quieras escuchar</string>
     <string name="beerpong">Torneo de Beerpong</string>
     <string name="proxProgramas">Próximos programas</string>
+    <string name="descripcion">
+        Somos una emisora única y exclusivamente digital con contenido musical y dinámico. Durante el verano realizamos un programa semanal, Hasta que el cuerpo aguante. Además, realizamos programas especiales en Halloween, Navidad y  Semana Santa.
+        En 2010 arrancó este proyecto, una idea de Alejandro Heredia (@alejandrohgomez) y después de cambiar formatos y programas es a día de hoy una emisora en la cual podrás divertirte y pasar un buen rato con nuestros programas.
+    </string>
+    <string name="equipo">
+        Nuestro equipo está formado por:
+    </string>
+    <string name="title_activity_equipo">EquipoActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="here">Alejandro Heredia Gómez\nDirector y locutor</string>
+    <string name="berto">Alberto Martínez Vicente\nTécnico de sonido</string>
+    <string name="deco">Diego Suárez González \"Deco\"\nLocutor</string>
+    <string name="rober">Roberto Pérez Sánchez\nLocutor</string>
+    <string name="cas">Pablo Casquero Sáez\nColaborador</string>
+    <string name="cesar">César Montero Agulla\nColaborador</string>
+    <string name="web">Página web</string>
+    <string name="uri">www.gigiaradio.com</string>
+    <string name="mail">Email</string>
+    <string name="gmail">gigiaradioceo@gmail.com</string>
+    <string name="twitter">Twitter</string>
+    <string name="twAcc">\@gigiaradio</string>
+    <string name="insta">Instagram</string>
 </resources>
