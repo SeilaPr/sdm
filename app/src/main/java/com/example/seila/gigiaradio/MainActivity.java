@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.twitter.sdk.android.core.DefaultLogger;
 import com.twitter.sdk.android.core.Twitter;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private Button play;
     private MediaPlayer mPlayer;
     private boolean playing = false;
+    private FirebaseAuth auth;
 
 
     @Override
@@ -161,5 +163,19 @@ public class MainActivity extends AppCompatActivity {
             setPlaying(false);
         }
     }
+
+    public void grabar(View view){
+
+        auth = FirebaseAuth.getInstance();
+        if (auth.getCurrentUser() != null) {
+            // Usuario logueado
+            final Intent mIntent = new Intent(MainActivity.this, GrabarActivity.class);
+            startActivity(mIntent);
+        }else{
+            final Intent mIntent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(mIntent);
+        }
+    }
+
 
 }

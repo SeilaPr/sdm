@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "307588448092",
+    "firebase_url": "https://gigiaradio-2f715.firebaseio.com",
+    "project_id": "gigiaradio-2f715",
+    "storage_bucket": "gigiaradio-2f715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307588448092:android:7ba7e39e3f861e42",
+        "android_client_info": {
+          "package_name": "com.example.seila.gigiaradio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307588448092-9v42ft4ldf3ahggfqnm7r5ogi1op6bn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDisl-rD_f74_NuDNNG6swLlq1kv8xVEuk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

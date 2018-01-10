@@ -55,8 +55,8 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="321dp"
-        app:layout_constraintHorizontal_bias="0.502" />
+        android:layout_marginBottom="308dp"
+        app:layout_constraintHorizontal_bias="0.808" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycled"
@@ -74,5 +74,20 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/btnPodcast" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="grabar"
+        android:text="@string/grabar"
+        app:layout_constraintBottom_toTopOf="@+id/recycled"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btnPodcast"
+        app:layout_constraintTop_toBottomOf="@+id/txtEscuchaLaRadio" />
 
 </android.support.constraint.ConstraintLayout>

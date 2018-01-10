@@ -35,4 +35,18 @@
     <string name="twitter">Twitter</string>
     <string name="twAcc">\@gigiaradio</string>
     <string name="insta">Instagram</string>
+    <string name="grabar">Grabar y \nenviar audio</string>
+    <string name="grabar2">Comenzar la \ngrabación</string>
+    <string name="parar">Finalizar la \ngrabación</string>
+    <string name="rep">Reproducir</string>
+    <string name="enviar">Enviar audio</string>
+    <string name="pass">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="regis">¿Aún no tienes cuenta? Regístrate</string>
+    <string name="olvd">He olvidado mi contraseña</string>
+    <string name="entr">¿Ya tienes cuenta? Entrar</string>
+    <string name="corre">Le enviaremos un correo \n con instrucciones para recuperar \nsu contraseña</string>
+    <string name="recu">Recuperar contraseña</string>
+    <string name="pass2">Repetir contraseña</string>
+    <string name="registr">Regístrame</string>
 </resources>
