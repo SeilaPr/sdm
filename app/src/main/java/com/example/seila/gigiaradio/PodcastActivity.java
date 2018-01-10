@@ -2,6 +2,7 @@ package com.example.seila.gigiaradio;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -109,6 +110,13 @@ public class PodcastActivity extends AppCompatActivity {
         mIntent.putExtra("fecha", beerpong.getFecha_emision());
         mIntent.putExtra("descripcion", beerpong.getDescripcion());
         startActivity(mIntent);
+    }
+
+    public void openIvoox(View view)
+    {
+        Uri uri = Uri.parse("https://www.ivoox.com/escuchar-gigiaradio-temporada-2017_nq_300067_1.html");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 
 }

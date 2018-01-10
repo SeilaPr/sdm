@@ -151,6 +151,8 @@ public class GrabarActivity extends AppCompatActivity {
 
         thread.start();
         finish();
+        Toast.makeText(GrabarActivity.this, "Audio enviado",
+                Toast.LENGTH_SHORT).show();
     }
 
 

@@ -37,7 +37,7 @@ public class PideCancionActivity extends AppCompatActivity {
         System.out.println(cancionStr);
         System.out.println(preguntasStr);
 
-        String[] TO = {"robertops1818@gmail.com"};
+        String[] TO = {"gigiaradioceo@gmail.com"};
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
 
         emailIntent.setData(Uri.parse("mailto:"));

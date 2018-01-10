@@ -35,7 +35,7 @@
     <string name="twitter">Twitter</string>
     <string name="twAcc">\@gigiaradio</string>
     <string name="insta">Instagram</string>
-    <string name="grabar">Grabar y \nenviar audio</string>
+    <string name="grabar">Grabar y enviar audio</string>
     <string name="grabar2">Comenzar la \ngrabación</string>
     <string name="parar">Finalizar la \ngrabación</string>
     <string name="rep">Reproducir</string>
@@ -55,4 +55,5 @@
     <string name="cancion">Canción:</string>
     <string name="coment">Comentarios o preguntas:</string>
     <string name="env">Enviar</string>
+    <string name="ivoox">Más podcast y programas completos en Ivoox</string>
 </resources>
