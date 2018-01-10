@@ -49,4 +49,10 @@
     <string name="recu">Recuperar contraseña</string>
     <string name="pass2">Repetir contraseña</string>
     <string name="registr">Regístrame</string>
+    <string name="pide">Pídenos tu canción favorita</string>
+    <string name="rellena">Rellena los campos y pídenos tu canción favorita</string>
+    <string name="nombre">Nombre:</string>
+    <string name="cancion">Canción:</string>
+    <string name="coment">Comentarios o preguntas:</string>
+    <string name="env">Enviar</string>
 </resources>

@@ -78,6 +78,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(mIntent);
     }
 
+    public void openPideCancion(View view)
+    {
+        final Intent mIntent = new Intent(MainActivity.this, PideCancionActivity.class);
+        startActivity(mIntent);
+    }
+
     private void twitter() {
         TwitterConfig config = new TwitterConfig.Builder(this)
                 .logger(new DefaultLogger(Log.DEBUG))
@@ -164,8 +170,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void grabar(View view){
-
+    public void grabar(View view)
+    {
+        stop();
+        play.setText(R.string.play);
         auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null) {
             // Usuario logueado

@@ -30,7 +30,8 @@
         <activity android:name=".GrabarActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegistroActivity" />
-        <activity android:name=".OlvidarActivity"></activity>
+        <activity android:name=".OlvidarActivity" />
+        <activity android:name=".PideCancionActivity"></activity>
     </application>
 
 </manifest>
