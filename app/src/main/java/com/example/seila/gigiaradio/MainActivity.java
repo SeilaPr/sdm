@@ -84,6 +84,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(mIntent);
     }
 
+    public void openNoticias(View view)
+    {
+        final Intent mIntent = new Intent(MainActivity.this, NoticiasActivity.class);
+        startActivity(mIntent);
+    }
+
     private void twitter() {
         TwitterConfig config = new TwitterConfig.Builder(this)
                 .logger(new DefaultLogger(Log.DEBUG))

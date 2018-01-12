@@ -1,5 +1,6 @@
 package com.example.seila.gigiaradio;
 
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
@@ -50,6 +51,7 @@ public class GrabarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grabar);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         auth = FirebaseAuth.getInstance();
         email = auth.getCurrentUser().getEmail().trim();

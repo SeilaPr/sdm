@@ -57,4 +57,7 @@
     <string name="env">Enviar</string>
     <string name="ivoox">Más podcast y programas completos en Ivoox</string>
     <string name="podcasts">PODCASTS</string>
+    <string name="noticias">Últimas noticias</string>
+    <string name="titulo">Título</string>
+    <string name="descripcionNot">Descripción</string>
 </resources>

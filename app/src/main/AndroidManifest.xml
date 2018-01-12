@@ -31,7 +31,9 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegistroActivity" />
         <activity android:name=".OlvidarActivity" />
-        <activity android:name=".PideCancionActivity"></activity>
+        <activity android:name=".PideCancionActivity" />
+        <activity android:name=".NoticiasActivity" />
+        <activity android:name=".NoticiaEspecificaActivity"></activity>
     </application>
 
 </manifest>
