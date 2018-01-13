@@ -60,4 +60,5 @@
     <string name="noticias">Últimas noticias</string>
     <string name="titulo">Título</string>
     <string name="descripcionNot">Descripción</string>
+    <string name="audio">Duración máxima del \n audio 30 segundos</string>
 </resources>
